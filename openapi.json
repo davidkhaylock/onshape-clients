@@ -7572,6 +7572,9 @@
     },
     "/api/metadataschema": {
       "get": {
+        "tags": [
+          "Metadata"
+        ],
         "operationId": "getMetadataSchema",
         "parameters": [
           {
@@ -7632,6 +7635,9 @@
     },
     "/api/metadataschema/properties": {
       "get": {
+        "tags": [
+          "Metadata"
+        ],
         "operationId": "getProperties",
         "parameters": [
           {
@@ -7732,6 +7738,9 @@
     },
     "/api/metadataschema/propertyinfo/{pid}": {
       "get": {
+        "tags": [
+          "Metadata"
+        ],
         "operationId": "getPropertyInfo",
         "parameters": [
           {
@@ -7806,6 +7815,9 @@
     },
     "/api/metadataschema/{sid}": {
       "get": {
+        "tags": [
+          "Metadata"
+        ],
         "operationId": "getSchema",
         "parameters": [
           {
@@ -11015,6 +11027,9 @@
     },
     "/api/partstudios/d/{did}/{wvm}/{wvmid}/e/{eid}/sketches": {
       "get": {
+        "tags": [
+          "PartStudios"
+        ],
         "operationId": "getSketchInfo",
         "parameters": [
           {
@@ -11119,6 +11134,9 @@
     },
     "/api/partstudios/d/{did}/{wvm}/{wvmid}/e/{eid}/sketches/{sid}/boundingboxes": {
       "get": {
+        "tags": [
+          "PartStudios"
+        ],
         "operationId": "getSketchBoundingBoxes",
         "parameters": [
           {
@@ -11201,6 +11219,9 @@
     },
     "/api/partstudios/d/{did}/{wvm}/{wvmid}/e/{eid}/sketches/{sid}/tessellatedentities": {
       "get": {
+        "tags": [
+          "PartStudios"
+        ],
         "operationId": "getTessellatedEntities",
         "parameters": [
           {
