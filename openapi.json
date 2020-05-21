@@ -13787,6 +13787,9 @@
     },
     "/api/workflowabletestobject/testobject/{wfid}": {
       "post": {
+        "tags": [
+          "Workflow"
+        ],
         "operationId": "createWorkflowableTestObject",
         "parameters": [
           {
@@ -13823,6 +13826,9 @@
     },
     "/api/workflowabletestobject/{oid}": {
       "get": {
+        "tags": [
+          "Workflow"
+        ],
         "operationId": "getWorkflowableTestObject",
         "parameters": [
           {
@@ -13857,6 +13863,9 @@
         "x-BTVisibility": "PRODUCTION"
       },
       "post": {
+        "tags": [
+          "Workflow"
+        ],
         "operationId": "updateWorkflowableTestObject",
         "parameters": [
           {
@@ -13903,6 +13912,9 @@
     },
     "/api/workflowabletestobject/{oid}/{transition}": {
       "post": {
+        "tags": [
+          "Workflow"
+        ],
         "operationId": "transitionWorkflowableTestObject",
         "parameters": [
           {
