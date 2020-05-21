@@ -6519,6 +6519,9 @@
     },
     "/api/insertables/d/{did}/latest": {
       "get": {
+        "tags": [
+          "Folders"
+        ],
         "summary": "insertables for a document",
         "operationId": "getLatestInDocument",
         "parameters": [
