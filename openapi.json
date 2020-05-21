@@ -13960,6 +13960,10 @@
   },
   "components": {
     "schemas": {
+      "Void": {
+        "type": "object",
+        "properties": {}
+      },
       "Address": {
         "type": "object",
         "properties": {
