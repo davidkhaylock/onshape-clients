@@ -683,6 +683,9 @@
         "x-BTVisibility": "PRODUCTION"
       },
       "post": {
+        "tags": [
+          "App Elements"
+        ],
         "operationId": "postAssociativeData",
         "parameters": [
           {
@@ -752,6 +755,9 @@
         "x-BTVisibility": "PRODUCTION"
       },
       "delete": {
+        "tags": [
+          "App Elements"
+        ],
         "operationId": "deleteAssociativeData",
         "parameters": [
           {
