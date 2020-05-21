@@ -524,6 +524,9 @@
     },
     "/api/appelements/d/{did}/{wvm}/{wvmid}/e/{eid}/associativedata": {
       "get": {
+        "tags": [
+          "App Elements"
+        ],
         "operationId": "getAssociativeData",
         "parameters": [
           {
